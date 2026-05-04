@@ -1,0 +1,163 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+/*
+<header>
+      <div class="header-container">
+        <img class="parrot-image">
+        <div class="text-title">
+            <h1>PollyGlot-43.42px</h1>
+            <h3>Perfect Traslation Every Time-12.21px</h3>
+        </div>
+      </div>
+*/
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid;
+    text-align: center;
+
+}
+.header-container {
+    background-image: url(/public/images/World\ Map\ 1.png);
+    background-repeat: no-repeat;
+    background-position:  98%;
+    background-size:  80% ;
+    background-color: #0D182E;
+    height: 21rem;
+}
+.header-container,
+.parrot-image,
+
+.text-title h1,
+.text-title h3 { 
+        margin: 0;
+        padding: 0;
+
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrot-image {
+    width: 9.48rem;
+    height: 8.48rem;
+    
+}
+.text-title {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 2rem;
+    
+}
+.text-title h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: #32CD32;
+    font-size: 4.342rem;
+    
+
+}
+.text-title h3 {
+    color: white;
+    font-size:  1.21rem;
+   
+}
+/*main---------------*/
+.main-content {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+fieldset {
+    border: .4rem solid black;
+    border-radius: 0.9rem;
+    margin: 3rem 1.3rem;
+    width: 36.2rem;
+    height: 50.5rem;
+    padding: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+label, textarea, button {
+    font-size: 2rem;
+    font-weight: 700;
+    
+    
+}
+.blue {
+    color: #035A9D;
+    padding: 1.5rem 1rem;
+}
+
+textarea {
+    background-color: #EFF0F4;
+    resize: none;
+    border: none; 
+    border-radius: 1rem;
+    padding: 1.3rem;
+    height: 11.8rem;
+}
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    line-height: 2rem;
+    
+}
+label {
+padding: 0;
+margin: 0 0 0 0.3rem;
+
+}
+img {
+    margin-left: 1rem;
+}
+button {
+    margin: 3rem 0 2rem;
+    height: 5rem;
+    border-radius: 0.6rem;
+    border: none;
+    color: white;
+    background-color: #035A9D;
+}
+.input-el{
+     display: flex;
+     align-content: center;
+     flex-direction: row;
+     justify-content: baseline;
+
+}
+/*
+      <main class="main-container">
+        <form>
+          <fieldset>
+            <label for="to-traslate">Text to traslate 👇</label>
+            <textarea id="to-traslate">How are you?</textarea>
+            <label for="radio-lenguages">Select language 👇</label>
+            <input type="radio" id="french" name="french" value="French">
+            <label for="french">French<span><img src="./public/images/fr-flag.png"></span></label>
+            <input type="radio" id="spanish" name="spanish" value="Spanish">
+            <label for="spanish">Spanish<span><img src="./public/images/sp-flag.png"></span></label>
+            <input type="radio" id="japanese" name="japanese" value="japanese">
+            <label for="japanese">Japanese<span><img src="./public/images/jpn-flag.png"></span></label>
+            <button type="button" class="form-btn">Traslate</button>
+            </fieldset>
+        </form>
+      </main>
+    </header>
+
+*/
