@@ -83,7 +83,7 @@ fieldset {
     border-radius: 0.9rem;
     margin: 3rem 1.3rem;
     width: 36.2rem;
-    height: 50.5rem;
+    min-height: 50.5rem;
     padding: 1.3rem;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ fieldset {
     align-content: center;
 }
 
-label, textarea, button {
+label, textarea, button, .blue {
     font-size: 2rem;
     font-weight: 700;
     
@@ -108,7 +108,7 @@ textarea {
     border: none; 
     border-radius: 1rem;
     padding: 1.3rem;
-    height: 11.8rem;
+    height: 15rem;
 }
 .radio-container {
     display: flex;
