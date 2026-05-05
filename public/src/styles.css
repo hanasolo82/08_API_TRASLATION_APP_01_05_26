@@ -110,6 +110,11 @@ textarea {
     padding: 1.3rem;
     height: 15rem;
 }
+textarea:hover, textarea:focus {
+    border: 3px solid #035A9D;
+    padding: 1rem;
+    outline-style: none;
+}
 .radio-container {
     display: flex;
     flex-direction: column;
@@ -140,6 +145,9 @@ button {
      flex-direction: row;
      justify-content: baseline;
 
+}
+.translated {
+    border: 1px solid;
 }
 /*
       <main class="main-container">
