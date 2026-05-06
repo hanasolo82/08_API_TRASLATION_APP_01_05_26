@@ -38,6 +38,6 @@ function renderPage(e) {
 
 //  on click 
 //  1. change to second page js ---------> hardcoded done
-//  2. configure secure ids with server. framework express
+//  2. configure secure ids with server. framework express --> done
 //  3. Api openai configure 
 //  4. Get data and deploy 
