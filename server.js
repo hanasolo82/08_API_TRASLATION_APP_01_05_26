@@ -21,11 +21,13 @@ server.use(express.json())
 
 server.post('/api',  async (req, res) => {
 
-    const {areaValue} = req.body
+    const {areaValue, languages} = req.body
+    console.log(req.body)
     try {
         const response = await openai.responses.create({
         model: modelAi,
-        input: areaValue
+        input: `Translate this text to ${language}
+                Return ONLY the translation: ${areaValue}`
     })
 
     const openAiResponse =  response.output_text
