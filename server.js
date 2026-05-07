@@ -26,7 +26,7 @@ server.post('/api',  async (req, res) => {
     try {
         const response = await openai.responses.create({
         model: modelAi,
-        input: `Translate this text to ${language}
+        input: `Translate this text to ${languages}
                 Return ONLY the translation: ${areaValue}`
     })
 
